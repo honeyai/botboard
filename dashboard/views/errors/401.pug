@@ -1,0 +1,15 @@
+include ../includes/header.pug
+  style
+    include ../css/errors/401.css
+body
+  .container
+    #errorText.flickable
+    pre#errorCodeDigits.zeroLineHeight.zeroOpacity.spacedLetters.flickable
+    #info &lsaquo;--NEW CODE
+
+    .d-flex.justify-content-center
+      a.btn.btn-dark.text-light(href="/login")
+        i.fas.fa-sign-in-alt.mr-2
+        span Login
+      script
+        include ../js/errors/401.js

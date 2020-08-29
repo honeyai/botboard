@@ -1,0 +1,16 @@
+body {
+  background-color: #cccccc;
+}
+.icon {
+  border: 2px solid #cccccc;
+  font-size: x-large;
+
+  height: 68px;
+  width: 68px;  
+}
+
+.abbr {
+  width: 68px;
+  height: 68px;
+  padding-top: 13.5px;
+}
